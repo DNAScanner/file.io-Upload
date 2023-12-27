@@ -47,4 +47,4 @@ const response = await(
 	})
 ).json() as FileIOResponse
 
-console.log(`Uploaded to \x1b[33m${response.link}\x1b[0m`);
+console.log(response.link);
